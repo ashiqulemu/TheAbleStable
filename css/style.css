@@ -335,7 +335,7 @@ h3 {
 
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#F91842+0,fd8e5e+100 */
-  background: #00D363;
+  background: #ff0000;
   color: #fff;
   display: inline-block;
   padding: 13px 29px 13px 29px;
@@ -352,9 +352,9 @@ h3 {
   cursor: pointer;
 }
 .boxed-btn3:hover {
-  color: #00D363 !important;
-  border: 1px solid #00D363;
-  background: transparent;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+  background: black;
 }
 .boxed-btn3:focus {
   outline: none;
@@ -943,7 +943,7 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(0, 29, 56, 0.8);
+  background: #0c0c0ce0;
 }
 @media (max-width: 767px) {
   .header-area .main-header-area.sticky {
@@ -1629,7 +1629,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #001D38;
+  background: #ff0000;
 }
 .footer p {
   font-family: "Roboto", sans-serif !important;
@@ -1680,13 +1680,13 @@ h3 {
   }
 }
 .footer .footer_top .footer_widget p {
-  color: #AAB1B7;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
 .footer .footer_top .footer_widget p a {
-  color: #AAB1B7;
+  color: #ffffff;
 }
 .footer .footer_top .footer_widget p a:hover {
   color: #FFFFFF;
@@ -1723,7 +1723,7 @@ h3 {
   line-height: 42px;
 }
 .footer .footer_top .footer_widget ul li a {
-  color: #AAB1B7;
+  color: #ffffff;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
@@ -1778,7 +1778,7 @@ h3 {
 }
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 14px;
-  color: #AAB1B7;
+  color: #ffffff;
   line-height: 26px;
 }
 .footer .copy-right_text {
@@ -1786,7 +1786,7 @@ h3 {
 }
 .footer .copy-right_text .copy_right {
   font-size: 15px;
-  color: #AAB1B7;
+  color: #ffffff;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -1796,7 +1796,7 @@ h3 {
   }
 }
 .footer .copy-right_text .copy_right a {
-  color: #00D363;
+  color: #ffffff;
 }
 .footer .socail_links {
   margin-top: 47px;
@@ -1816,16 +1816,15 @@ h3 {
   height: 40px;
   display: inline-block;
   text-align: center;
-  background: transparent;
+  background: black;
   border-radius: 50%;
   line-height: 40px !important;
   margin-right: 7px;
   color: #fff !important;
-  line-height: 40px !important;
-  background: transparent;
-  color: #334A60 !important;
+  line-height: 40px !important; 
+  color: #ffffff !important;
   transition: 0.3s;
-  border: 1px solid #334A60;
+  border: 2px solid #ff0000;
 }
 .footer .socail_links ul li a i {
   font-size: 15px;
@@ -1835,9 +1834,9 @@ h3 {
 }
 .footer .socail_links ul li:hover a {
   color: #fff !important;
-  background: #00D363;
+  background: #000000;
   border-color: transparent;
-  border: 1px solid #00D363;
+  border: 2px solid #ffffff;
 }
 
 .bradcam_bg_1 {
@@ -2065,8 +2064,12 @@ h3 {
 }
 
 .popular_catagory_area {
-  background: #F5F7FA;
+  /* background: #F5F7FA; */
+  background: red;
   padding: 100px 0;
+}
+.popular_catagory_area .section_title h3{
+color: #fff;
 }
 .popular_catagory_area .single_catagory {
   background: #FFFFFF;
@@ -3202,7 +3205,7 @@ h3 {
 }
 .form-contact textarea {
   border-radius: 0px;
-  height: 100% !important;
+  height: 70px!important;
 }
 
 /*=================== contact form end ====================*/
