@@ -2071,16 +2071,18 @@ h3 {
 .popular_catagory_area .single_catagory {
   background: #FFFFFF;
   border-radius: 5px;
-  padding: 38px 25px;
+  padding:22px;
   border: 1px solid transparent;
   transition: 0.3s;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .popular_catagory_area .single_catagory a h4 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
-  margin-bottom: 15px;
-  transition: 0.3s;
+  margin-top: 10px;
+  transition: 0.3s; 
+  text-transform: capitalize;
+  text-decoration: none;
 }
 .popular_catagory_area .single_catagory p {
   font-size: 16px;
