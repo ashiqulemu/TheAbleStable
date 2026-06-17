@@ -1765,7 +1765,7 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #00D363;
+  background: #000000;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -1776,6 +1776,7 @@ h3 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
+
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 14px;
   color: #ffffff;
