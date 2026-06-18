@@ -945,12 +945,12 @@ h3 {
   top: -70px;
   left: 0;
   right: 0;
-  z-index: 990;
+  z-index: 1000;
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: #0c0c0ce0;
+  background: #0c0c0cf1;
 }
 @media (max-width: 767px) {
   .header-area .main-header-area.sticky {
