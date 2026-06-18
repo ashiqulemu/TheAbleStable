@@ -6,6 +6,16 @@
   justify-content: start;
 }
 
+@font-face {
+  font-family: High-School-Memories;
+  src: url('../fonts/High-School-Memories.ttf');
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -859,7 +869,7 @@ h3 {
   padding: 35px 0px 35px 0px;
   font-family: "Roboto", sans-serif;
   position: relative;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .header-area .main-header-area .main-menu ul li a {
@@ -885,7 +895,7 @@ h3 {
   }
 }
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #00D363;
+  color: #ff0000;
 }
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
@@ -2071,18 +2081,22 @@ color: #fff;
 .popular_catagory_area .single_catagory {
   background: #FFFFFF;
   border-radius: 5px;
-  padding:22px;
+ padding: 12px;
   border: 1px solid transparent;
   transition: 0.3s;
   margin-bottom: 20px;
 }
+.popular_catagory_area .single_catagory img{
+ width: 80%;
+}
 .popular_catagory_area .single_catagory a h4 {
-  font-size: 22px;
-  font-weight: 400;
-  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400; 
   transition: 0.3s; 
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
+  margin-top: 5px;
+  font-family: 'High-School-Memories';
 }
 .popular_catagory_area .single_catagory p {
   font-size: 16px;
@@ -3174,9 +3188,38 @@ color: #fff;
   margin-bottom: 20px;
 }
 
+.formData_area{
+  background: aliceblue;
+}
+
+.formData_area form{
+  background: red;
+}
+
+ 
+
+.btn-form-submit{
+  border: 0;
+    padding: 12px 15px;
+    background: black;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-form-submit:hover{
+      color: red;
+    outline: 2px solid #fff;
+}
+
 .form-contact label {
   font-size: 14px;
+  color: #ffffff;
 }
+.formData_area .form-contact .form-control {
+  background: #fff;
+  border-radius: 4px;
+}
+ 
 .form-contact .form-group {
   margin-bottom: 30px;
 }
