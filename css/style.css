@@ -2447,7 +2447,7 @@ h3 {
 }
 
 .popular_catagory_area .single_catagory:hover h4 {
-  color: #d30000;
+  color: red;
   text-decoration: underline;
 }
 
