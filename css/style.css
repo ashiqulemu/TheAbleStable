@@ -2378,7 +2378,7 @@ h3 {
   background: #FFFFFF;
   border-radius: 5px;
   padding: 12px;
-  border: 1px solid transparent;
+  border: 2px solid black;
   transition: 0.3s;
   margin-bottom: 20px;
 }
@@ -2415,13 +2415,11 @@ h3 {
 }
 
 .popular_catagory_area .single_catagory:hover h4 {
-  color: #00D363;
+  color: #d30000;
   text-decoration: underline;
 }
 
-.popular_catagory_area .single_catagory:hover {
-  border-color: #B2F2D0;
-}
+ 
 
 .job_searcing_wrap {
   position: relative;
