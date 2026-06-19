@@ -727,7 +727,7 @@ h3 {
   padding: 5px;
   right: 0;
   margin-top: -5px;
-  top: -33px;
+  top: -30px;
 }
 
 .header-area {
@@ -843,7 +843,7 @@ h3 {
 
 @media (max-width: 767px) {
   .header-area .main-header-area .logo img {
-    max-width: 160px;
+    max-width: 240px;
   }
 }
 
@@ -2439,8 +2439,9 @@ h3 {
   }
 }
 
-.job_searcing_wrap {
-  /* background: #2B9BFF !important; */
+.job_searcing_wrap .title{
+  font-family: High-School-Memories;
+      font-size: 3rem;
 }
 
 .job_searcing_wrap.overlay::before {
