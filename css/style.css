@@ -2392,19 +2392,32 @@ h3 {
   width: 80%;
 }
 
+.border-adjust{
+  border-left: 1px solid black;
+}
+
 .intro {
   padding-top: 145px;
+  background: #000;
+  padding-bottom: 25px;
    
 }
 .intro p{
- color: #000;
-   
+     color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 25.9px;
+    line-height: 1.7;
 }
 
 @media(max-width:992px) {
   .intro {
     padding-top: 115px;
-  }
+  } 
+}
+@media(max-width:768px) {
+   .border-adjust{
+  border-left: 0 ;
+}
 }
 
 .popular_catagory_area .single_catagory a h4 {
