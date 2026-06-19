@@ -2415,6 +2415,9 @@ h3 {
   } 
 }
 @media(max-width:768px) {
+  .slicknav_btn{
+    top: -40px;
+  }
    .border-adjust{
     border-left: 0 ;
     padding-top: 30px;
