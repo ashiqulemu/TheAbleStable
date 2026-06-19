@@ -13,6 +13,11 @@
 }
 
 
+.high-school {
+  font-family: 'High-School-Memories';
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -2368,10 +2373,10 @@ h3 {
   padding: 100px 0;
 }
 
- 
+
 .popular_catagory_area .section_title h3 {
   color: #fff;
-     font-family: 'High-School-Memories';
+  font-family: 'High-School-Memories';
 }
 
 .popular_catagory_area .single_catagory {
@@ -2387,6 +2392,21 @@ h3 {
   width: 80%;
 }
 
+.intro {
+  padding-top: 145px;
+   
+}
+.intro p{
+ color: #000;
+   
+}
+
+@media(max-width:992px) {
+  .intro {
+    padding-top: 115px;
+  }
+}
+
 .popular_catagory_area .single_catagory a h4 {
   font-size: 20px;
   font-weight: 400;
@@ -2396,6 +2416,18 @@ h3 {
   margin-top: 5px;
   font-family: 'High-School-Memories';
 }
+
+.addrs_infos {
+  background: red;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.addrs_infos p {
+  color: #fff;
+
+}
+
 
 .popular_catagory_area .single_catagory p {
   font-size: 16px;
@@ -2419,7 +2451,7 @@ h3 {
   text-decoration: underline;
 }
 
- 
+
 
 .job_searcing_wrap {
   position: relative;
@@ -2440,9 +2472,9 @@ h3 {
   }
 }
 
-.job_searcing_wrap .title{
+.job_searcing_wrap .title {
   font-family: High-School-Memories;
-      font-size: 3rem;
+  font-size: 3rem;
 }
 
 .job_searcing_wrap.overlay::before {
